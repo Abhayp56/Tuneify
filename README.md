@@ -1,205 +1,314 @@
-<div align="center">
+# TUNEIFY
+### A refined music experience. Engineered for listeners.
 
-```
-┌──────────────────────────────────────────────┐
-│  ♪  N O W   P L A Y I N G                    │
-│                                              │
-│  T U N E I F Y                               │
-│  Premium Burgundy Rose                       │
-│                                              │
-│  ▂▃▅▆▇█▇▆▅▃▂▁▂▄▆█▇▅▃▂▁▂▃▅▆▇█▇▆▅▃▂▁           │
-│  ●━━━━━━━━━━━━━━━━━━━──────────────────      │
-│                                              │
-│            ◄◄      ►      ►►                 │
-│                                              │
-│  STREAM · OFFLINE · LOCAL · EQ · LYRICS      │
-└──────────────────────────────────────────────┘
-```
+<p align="center">
+  <strong>Discover. Listen. Customize. Experience.</strong>
+</p>
 
-# Tuneify
+<p align="center">
+  An open-source Android music application bringing streaming, local playback, advanced audio processing, and a unified music library into one cohesive experience.
+</p>
 
-**An elegant, modern, open-source Android music player.**<br/>
-Streaming and local playback, crafted with Jetpack Compose and Material 3.
+<p align="center">
+  <a href="https://github.com/Abhayp56/Tuneify/releases">
+    <strong>Download Tuneify</strong>
+  </a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Abhayp56/Tuneify/issues">Report an Issue</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Abhayp56/Tuneify">Source Code</a>
+</p>
 
-<sub>Styled in a signature **Premium Burgundy Rose** aesthetic with fluid glassmorphism and acoustic tuning.</sub>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-921733?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Language-Kotlin-C82A4C?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-E4677F?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
+  <img src="https://img.shields.io/badge/License-GPL--3.0-5C0F21?style=for-the-badge" alt="GPL-3.0">
+</p>
 
-<br/>
+---
 
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-C82A4C?style=for-the-badge&labelColor=2B0710" alt="License: GPL v3"/></a>
-<a href="https://developer.android.com"><img src="https://img.shields.io/badge/Platform-Android%207.0%2B%20(API%2024%2B)-921733?style=for-the-badge&labelColor=2B0710" alt="Platform: Android 7.0+ (API 24+)"/></a>
-<a href="#-palette"><img src="https://img.shields.io/badge/Theme-Burgundy%20Rose-5C0F21?style=for-the-badge&labelColor=2B0710" alt="Theme: Burgundy Rose"/></a>
+## Overview
 
-<br/><br/>
+Tuneify is a modern, open-source Android music application designed to bring multiple music experiences together under a single interface.
 
-<code>▁▂▃▄▅▆▇█▇▆▅▄▃▂▁ &nbsp; ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁ &nbsp; ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁</code>
+Built with Kotlin and Jetpack Compose, it combines online music sources, local audio playback, library management, synchronized lyrics, and advanced audio customization.
 
-</div>
+Its design philosophy is centered around three principles:
 
-<br/>
+- **Control:** Give listeners meaningful control over their music and audio experience.
+- **Continuity:** Bring different music sources and personal libraries together.
+- **Craft:** Deliver a cohesive interface with attention to visual detail and interaction design.
 
-## 🎼 Tracklist
+Tuneify features a distinctive **Premium Burgundy Rose** design language, combining dark surfaces, rich burgundy tones, subtle glass-inspired elements, and refined typography.
 
-Everything Tuneify does, pressed onto two sides.
+---
 
-<table>
-  <tr>
-    <th colspan="2" align="left">💿 &nbsp;SIDE A &nbsp;·&nbsp; LISTEN</th>
-  </tr>
-  <tr>
-    <td width="70" align="center"><h3>01</h3></td>
-    <td>
-      <b>High-Fidelity Audio Streaming &amp; Offline Playback</b><br/>
-      › Seamless streaming powered by ExoPlayer / Media3.<br/>
-      › Download tracks and playlists for complete offline listening.<br/>
-      › Audio cache management with customizable storage quotas.
-    </td>
-  </tr>
-  <tr>
-    <td width="70" align="center"><h3>02</h3></td>
-    <td>
-      <b>Audio Lab &amp; TuneifyEqualizer</b><br/>
-      › Professional acoustic engine with 10-band / parametric equalizer.<br/>
-      › Headphone correction profiles powered by the AutoEq database.<br/>
-      › Spatial audio, Reverb, Bass Boost, and ReplayGain loudness normalization.
-    </td>
-  </tr>
-  <tr>
-    <td width="70" align="center"><h3>03</h3></td>
-    <td>
-      <b>Synchronized Lyrics Experience</b><br/>
-      › Time-synced, word-by-word animated lyrics (Fluid, Glow, Slide, Karaoke).<br/>
-      › Multi-provider lyrics fetching via LRCLIB, SimpMusic, and LyricsPlus.<br/>
-      › Export customizable, high-resolution lyric snapshot cards directly to your gallery (<code>Pictures/Tuneify</code>).
-    </td>
-  </tr>
-  <tr>
-    <th colspan="2" align="left">💿 &nbsp;SIDE B &nbsp;·&nbsp; OWN IT</th>
-  </tr>
-  <tr>
-    <td width="70" align="center"><h3>04</h3></td>
-    <td>
-      <b>Unified Library &amp; Seamless Multi-Platform Import</b><br/>
-      › Instant discovery and synchronization of local device audio files.<br/>
-      › Two-way playlist, likes, and history synchronization with YouTube Music.<br/>
-      › Import playlists and libraries from Spotify, Apple Music, Tidal, and CSV backups.
-    </td>
-  </tr>
-  <tr>
-    <td width="70" align="center"><h3>05</h3></td>
-    <td>
-      <b>Rich Integrations</b><br/>
-      › Native Discord Rich Presence integration (live album artwork, spinning vinyl animation, and interactive track buttons).<br/>
-      › Last.fm and Libre.fm real-time scrobbling and like synchronizations.<br/>
-      › Android Auto, Lockscreen Media Controls, and Home Screen Widgets.
-    </td>
-  </tr>
-  <tr>
-    <td width="70" align="center"><h3>06</h3></td>
-    <td>
-      <b>Privacy &amp; Ownership</b><br/>
-      › Completely tracker-free and ad-free.<br/>
-      › All account credentials, tokens, and listening history remain strictly encrypted on your device.
-    </td>
-  </tr>
-</table>
+## Product Capabilities
 
-<br/>
+### 01 — Music Discovery & Playback
 
-## 🎨 Palette
+A unified listening experience designed around online streaming and personal music collections.
 
-**Premium Burgundy Rose**: a luxury dark palette designed for late-night listening.
+- Music streaming through supported online providers.
+- Local device audio discovery and playback.
+- Background playback powered by AndroidX Media3.
+- Queue management and playback controls.
+- Offline downloads for supported content.
+- Audio cache management with configurable storage quotas.
+- Lock screen and notification media controls.
 
-<table>
-  <tr>
-    <th align="left">Role</th>
-    <th align="left">Color</th>
-    <th align="left">Used for</th>
-  </tr>
-  <tr>
-    <td><b>Deep Black</b></td>
-    <td><img src="https://img.shields.io/badge/%23090909-090909?style=for-the-badge" alt="#090909"/></td>
-    <td>Midnight foundation for AMOLED screens</td>
-  </tr>
-  <tr>
-    <td><b>Deep Wine</b></td>
-    <td><img src="https://img.shields.io/badge/%232B0710-2B0710?style=for-the-badge" alt="#2B0710"/></td>
-    <td>Atmospheric ambient surfaces</td>
-  </tr>
-  <tr>
-    <td><b>Dark Burgundy</b></td>
-    <td><img src="https://img.shields.io/badge/%235C0F21-5C0F21?style=for-the-badge" alt="#5C0F21"/></td>
-    <td>Elevated sheets and containers</td>
-  </tr>
-  <tr>
-    <td><b>Burgundy</b></td>
-    <td><img src="https://img.shields.io/badge/%23921733-921733?style=for-the-badge" alt="#921733"/></td>
-    <td>Selected items and interactive states</td>
-  </tr>
-  <tr>
-    <td><b>Crimson Rose</b></td>
-    <td><img src="https://img.shields.io/badge/%23C82A4C-C82A4C?style=for-the-badge" alt="#C82A4C"/></td>
-    <td><b>Primary brand accent</b>, active toggles, sliders</td>
-  </tr>
-  <tr>
-    <td><b>Rose Pink</b></td>
-    <td><img src="https://img.shields.io/badge/%23E4677F-E4677F?style=for-the-badge" alt="#E4677F"/></td>
-    <td>Secondary highlights and subtle emphasis</td>
-  </tr>
-  <tr>
-    <td><b>Soft Pink</b></td>
-    <td><img src="https://img.shields.io/badge/%23F2A9B7-F2A9B7?style=for-the-badge" alt="#F2A9B7"/></td>
-    <td>Secondary text and high-contrast badges</td>
-  </tr>
-  <tr>
-    <td><b>Blush White</b></td>
-    <td><img src="https://img.shields.io/badge/%23FCE3E8-FCE3E8?style=for-the-badge" alt="#FCE3E8"/></td>
-    <td>Primary readable typography</td>
-  </tr>
-</table>
+### 02 — Audio Lab
 
-<br/>
+A dedicated audio customization environment for listeners who want greater control over sound reproduction.
 
-## 🧾 Liner Notes
+- 10-band and parametric equalizer capabilities.
+- Headphone correction profiles using AutoEq data.
+- Bass Boost and Reverb processing.
+- Spatial audio controls.
+- ReplayGain loudness normalization.
+- Custom audio processing components.
 
-Architecture and tech stack.
+### 03 — Synchronized Lyrics
 
-| | |
-|:--|:--|
-| **UI Framework** | 100% Jetpack Compose with Material 3 and custom AGSL runtime shaders |
-| **Media Engine** | AndroidX Media3 (ExoPlayer `1.4.1`) with custom audio processors |
-| **Dependency Injection** | Hilt / Dagger |
-| **Local Persistence** | Room Database with SQLCipher and AndroidX DataStore preferences |
-| **Image Pipeline** | Coil 3 with custom blur and color-extraction transformations |
-| **Network Stack** | Ktor Client & OkHttp with Kotlinx Serialization |
+An integrated lyrics experience designed to complement music playback.
 
-<br/>
+- Time-synchronized lyrics.
+- Word-by-word lyric highlighting where supported.
+- Multiple visual presentation styles, including Karaoke, Glow, Slide, and Fluid.
+- Multi-provider lyrics retrieval through LRCLIB, SimpMusic, and LyricsPlus.
+- Customizable lyric snapshot exports.
+- High-resolution lyric cards saved to `Pictures/Tuneify`.
 
-## 🔧 Build
+### 04 — Unified Music Library
 
-**Prerequisites**
+Tools for managing personal music collections and supported external libraries.
 
-- Android Studio Ladybug / Meerkat or newer
-- Android SDK 36 (compileSdk 36, minSdk 24)
-- JDK 17 or JDK 21
+- Automatic local audio discovery.
+- Playlist creation and management.
+- Favorites, likes, and listening history.
+- Supported YouTube Music synchronization.
+- Playlist and library import from supported Spotify, Apple Music, and Tidal sources.
+- CSV-based library import and backup workflows.
+
+### 05 — Connected Listening
+
+Tuneify integrates with supported services and Android experiences.
+
+| Integration | Capability |
+|---|---|
+| Discord | Rich Presence and playback activity |
+| Last.fm | Listening scrobbling and supported interactions |
+| Libre.fm | Listening scrobbling |
+| Android Auto | Compatible in-car media experience |
+| Google Cast | Supported casting functionality |
+| Shazam | Music recognition integration |
+| Home Screen Widgets | Playback access and controls |
+
+*Integration availability and functionality may depend on provider APIs, account permissions, device capabilities, and application configuration.*
+
+---
+
+## Design System
+
+### Premium Burgundy Rose
+
+Tuneify uses a custom dark visual identity designed to create a consistent experience across its interface.
+
+| Design Token | Color | Hex |
+|---|---|---|
+| Deep Black | <img src="https://placehold.co/18x18/090909/090909.png" alt="Deep Black"> | `#090909` |
+| Deep Wine | <img src="https://placehold.co/18x18/2B0710/2B0710.png" alt="Deep Wine"> | `#2B0710` |
+| Dark Burgundy | <img src="https://placehold.co/18x18/5C0F21/5C0F21.png" alt="Dark Burgundy"> | `#5C0F21` |
+| Burgundy | <img src="https://placehold.co/18x18/921733/921733.png" alt="Burgundy"> | `#921733` |
+| Crimson Rose | <img src="https://placehold.co/18x18/C82A4C/C82A4C.png" alt="Crimson Rose"> | `#C82A4C` |
+| Rose Pink | <img src="https://placehold.co/18x18/E4677F/E4677F.png" alt="Rose Pink"> | `#E4677F` |
+| Soft Pink | <img src="https://placehold.co/18x18/F2A9B7/F2A9B7.png" alt="Soft Pink"> | `#F2A9B7` |
+| Blush White | <img src="https://placehold.co/18x18/FCE3E8/FCE3E8.png" alt="Blush White"> | `#FCE3E8` |
+
+The design system emphasizes:
+
+- Consistent surface hierarchy.
+- High-contrast typography.
+- Restrained gradients and visual effects.
+- Cohesive interactive states.
+- Carefully balanced accent colors.
+
+---
+
+## Technology Stack
+
+Tuneify is developed using modern Android development technologies.
+
+| Component | Technology |
+|---|---|
+| Programming Language | Kotlin |
+| UI Framework | Jetpack Compose |
+| Design System | Material 3 |
+| Media Playback | AndroidX Media3 / ExoPlayer |
+| Dependency Injection | Hilt / Dagger |
+| Local Database | Room |
+| Database Encryption | SQLCipher |
+| Preferences | AndroidX DataStore |
+| Image Loading | Coil 3 |
+| Networking | Ktor Client / OkHttp |
+| Serialization | Kotlinx Serialization |
+| Audio Processing | Custom audio processors |
+| Runtime Visual Effects | AGSL shaders |
+
+### Architecture Principles
+
+The project is structured around modular Android components and separation of responsibilities.
+
+- Declarative UI development with Jetpack Compose.
+- Dependency injection for application services.
+- Persistent local storage through Room.
+- Asynchronous operations using Kotlin coroutines and Flow.
+- Dedicated media playback infrastructure.
+- Network communication through configured HTTP clients.
+
+---
+
+## Getting Started
+
+### Requirements
+
+| Requirement | Version |
+|---|---|
+| Android Version | Android 7.0+ |
+| Minimum SDK | API 24 |
+| Compile SDK | API 36 |
+| JDK | 17 or 21 |
+| Android Studio | Ladybug / Meerkat or newer |
+
+### Clone the Repository
 
 ```bash
-# Build Universal FOSS Debug APK
-./gradlew :app:assembleUniversalFossDebug
+git clone https://github.com/Abhayp56/Tuneify.git
 
-# Build Universal FOSS Release APK
+cd Tuneify
+```
+
+### Build the Debug APK
+
+**Linux / macOS**
+
+```bash
+./gradlew :app:assembleUniversalFossDebug
+```
+
+**Windows PowerShell**
+
+```powershell
+.\gradlew.bat :app:assembleUniversalFossDebug
+```
+
+### Build the Release Variant
+
+```bash
 ./gradlew :app:assembleUniversalFossRelease
 ```
 
-<br/>
+The generated APKs are located under:
 
-## 📄 License
+```text
+app/build/outputs/apk/
+```
 
-Tuneify is free and open-source software distributed under the terms of the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information.
+*Release builds may require appropriate signing configuration before distribution.*
 
-<br/>
+---
 
-<div align="center">
+## Download
 
-<code>▁▂▃▄▅▆▇█▇▆▅▄▃▂▁ &nbsp; ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁ &nbsp; ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁</code>
+Get the latest published version of Tuneify from the official GitHub Releases page.
 
-</div>
+<p align="center">
+  <a href="https://github.com/Abhayp56/Tuneify/releases">
+    <img src="https://img.shields.io/badge/GET_TUNEIFY-DOWNLOAD_LATEST_RELEASE-C82A4C?style=for-the-badge&logo=android&logoColor=white" alt="Download Tuneify">
+  </a>
+</p>
+
+**Compatibility:** Android 7.0 and above.
+
+---
+
+## Project Structure
+
+The application is organized into an Android Gradle project with application modules and supporting resources.
+
+```text
+Tuneify/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   ├── res/
+│   │   │   └── AndroidManifest.xml
+│   │   ├── universalFoss/
+│   │   └── test/
+│   └── build.gradle.kts
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── LICENSE
+└── README.md
+```
+
+*The structure above is a simplified overview; actual source directories and build variants may differ.*
+
+---
+
+## Open Source & Licensing
+
+Tuneify is distributed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+The project builds upon existing open-source software and libraries. Their respective licenses and attribution requirements must be respected.
+
+Contributions, modifications, and redistribution must comply with the applicable licenses, including the project's GPL-3.0 obligations.
+
+See the [LICENSE](LICENSE) file for complete licensing information.
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+If you encounter a bug, have an improvement in mind, or want to contribute to development:
+
+1. Fork the repository.
+2. Create a dedicated feature branch.
+3. Implement and test your changes.
+4. Submit a pull request describing your contribution.
+
+For bugs and feature requests, use the [GitHub Issues](https://github.com/Abhayp56/Tuneify/issues) page.
+
+Please include sufficient information to reproduce reported issues.
+
+---
+
+## Acknowledgements
+
+Tuneify is made possible by the work of the open-source community.
+
+Special appreciation goes to the developers, maintainers, and contributors behind the libraries, frameworks, APIs, and services that make this project possible.
+
+All third-party trademarks and service names belong to their respective owners.
+
+---
+
+<p align="center">
+  <strong>TUNEIFY</strong>
+  <br>
+  <sub>A different perspective on listening.</sub>
+  <br><br>
+  <a href="https://github.com/Abhayp56/Tuneify">GitHub Repository</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Abhayp56/Tuneify/releases">Releases</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Abhayp56/Tuneify/issues">Support</a>
+</p>
