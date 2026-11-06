@@ -1,98 +1,116 @@
-# Tuneify 🎵
+# TUNEIFY
 
-<div align="center">
+**Your music. Your mood. Your rules.**
 
-**Tuneify** is an elegant, modern, and open-source Android music streaming and local audio playback application crafted with Jetpack Compose and Material 3.
+A beautifully crafted Android music experience, built for the way you listen.
 
-Styled in a signature **Premium Burgundy Rose** visual aesthetic with fluid glassmorphism and acoustic tuning.
+Stream your favorites. Rediscover your library. Shape every sound.
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-C82A4C.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Android%207.0%2B%20(API%2024%2B)-2B0710.svg)](https://developer.android.com)
-[![Design](https://img.shields.io/badge/Theme-Burgundy%20Rose-921733.svg)](#brand-identity)
+[**Download Tuneify**](https://github.com/Abhayp56/Tuneify/releases) · [Explore Source](https://github.com/Abhayp56/Tuneify) · [Report an Issue](https://github.com/Abhayp56/Tuneify/issues)
 
-</div>
-
----
-
-## ✨ Features
-
-- **High-Fidelity Audio Streaming & Offline Playback**
-  - Seamless streaming powered by ExoPlayer / Media3.
-  - Download tracks and playlists for complete offline listening.
-  - Audio cache management with customizable storage quotas.
-
-- **Audio Lab & TuneifyEqualizer**
-  - Professional acoustic engine with 10-band / parametric equalizer.
-  - Headphone correction profiles powered by the AutoEq database.
-  - Spatial audio, Reverb, Bass Boost, and ReplayGain loudness normalization.
-
-- **Synchronized Lyrics Experience**
-  - Time-synced, word-by-word animated lyrics (Fluid, Glow, Slide, Karaoke).
-  - Multi-provider lyrics fetching via LRCLIB, SimpMusic, and LyricsPlus.
-  - Export customizable, high-resolution lyric snapshot cards directly to your gallery (`Pictures/Tuneify`).
-
-- **Unified Library & Seamless Multi-Platform Import**
-  - Instant discovery and synchronization of local device audio files.
-  - Two-way playlist, likes, and history synchronization with YouTube Music.
-  - Import playlists and libraries from Spotify, Apple Music, Tidal, and CSV backups.
-
-- **Rich Integrations**
-  - Native Discord Rich Presence integration (live album artwork, spinning vinyl animation, and interactive track buttons).
-  - Last.fm and Libre.fm real-time scrobbling and like synchronizations.
-  - Android Auto, Lockscreen Media Controls, and Home Screen Widgets.
-
-- **Privacy & Ownership**
-  - Completely tracker-free and ad-free.
-  - All account credentials, tokens, and listening history remain strictly encrypted on your device.
+![Android](https://img.shields.io/badge/Android-7.0%2B-921733?style=flat-square)
+![Kotlin](https://img.shields.io/badge/Built_with-Kotlin-C82A4C?style=flat-square)
+![License](https://img.shields.io/badge/License-GPL--3.0-E4677F?style=flat-square)
 
 ---
 
-## 🎨 Brand Identity: Premium Burgundy Rose
+## Music deserves more.
 
-Tuneify features a luxury dark palette designed for late-night listening:
+Tuneify brings streaming, local music, personalized listening, and powerful audio controls together in one beautifully designed experience.
 
-| Color Role | Hex Code | Visual Preview | Description |
-|:---|:---|:---:|:---|
-| **Deep Black** | `#090909` | ⬛ | Midnight foundation for AMOLED screens |
-| **Deep Wine** | `#2B0710` | 🍷 | Atmospheric ambient surfaces |
-| **Dark Burgundy** | `#5C0F21` | 🟫 | Elevated sheets and containers |
-| **Burgundy** | `#921733` | 🟥 | Selected items and interactive states |
-| **Crimson Rose** | `#C82A4C` | 🌹 | **Primary Brand Accent**, active toggles, sliders |
-| **Rose Pink** | `#E4677F` | 🌸 | Secondary highlights and subtle emphasis |
-| **Soft Pink** | `#F2A9B7` | 🩰 | Secondary text and high-contrast badges |
-| **Blush White** | `#FCE3E8` | 🤍 | Primary readable typography |
+No clutter. No distractions. Just you and your music.
 
----
+### A new way to listen
 
-## 🏗️ Architecture & Tech Stack
-
-- **UI Framework:** 100% Jetpack Compose with Material 3 and custom AGSL runtime shaders.
-- **Media Engine:** AndroidX Media3 (ExoPlayer `1.4.1`) with custom audio processors.
-- **Dependency Injection:** Hilt / Dagger.
-- **Local Persistence:** Room Database with SQLCipher and AndroidX DataStore preferences.
-- **Image Pipeline:** Coil 3 with custom blur and color-extraction transformations.
-- **Network Stack:** Ktor Client & OkHttp with Kotlinx Serialization.
+| | |
+|---|---|
+| **Discover** | Find tracks, albums, artists, and new favorites. |
+| **Listen** | Stream music or enjoy downloaded tracks offline. |
+| **Personalize** | Fine-tune your listening experience with Audio Lab. |
+| **Organize** | Keep playlists, favorites, and local music together. |
+| **Experience** | Enjoy synchronized lyrics and immersive player visuals. |
+| **Connect** | Extend your listening with supported music integrations. |
 
 ---
 
-## 🚀 Building & Developing
+## Designed to feel different.
 
-### Prerequisites
-- Android Studio Ladybug / Meerkat or newer.
-- Android SDK 36 (compileSdk 36, minSdk 24).
-- JDK 17 or JDK 21.
+**Premium Burgundy Rose**
 
-### Build Commands
+Not another ordinary dark theme.
+
+Tuneify blends deep wine backgrounds, rich burgundy surfaces, soft rose highlights, and subtle glass-inspired elements into a visual experience built around music.
+
+`#090909` · `#2B0710` · `#921733` · `#C82A4C` · `#E4677F`
+
+*Your music has a personality. Your player should too.*
+
+---
+
+## The sound is yours.
+
+### Audio Lab
+
+Take control of your listening with powerful audio customization.
+
+- 10-band and parametric equalizer options
+- Headphone correction profiles
+- Bass boost and reverb effects
+- ReplayGain loudness normalization
+- Additional spatial audio controls
+
+### Lyrics that move with you
+
+Follow your favorite songs with synchronized lyrics, animated lyric effects, and customizable lyric cards.
+
+### One library. All your music.
+
+Bring together local audio, streaming favorites, playlists, and supported library imports.
+
+### Beyond your phone
+
+Enjoy integrations for compatible Android Auto systems, media controls, widgets, scrobbling, and connected listening experiences.
+
+---
+
+## Get Tuneify
+
+**Ready to make music yours?**
+
+[**Download the latest available APK**](https://github.com/Abhayp56/Tuneify/releases)
+
+Requires Android 7.0 or newer.
+
+*Downloads will appear on the Releases page once an APK release has been published. Early builds may be intended for testing.*
+
+---
+
+## Built with modern Android technology
+
+Kotlin · Jetpack Compose · Material 3 · Media3 / ExoPlayer · Room · Hilt · Coil · Ktor
+
+### Build from source
+
 ```bash
-# Build Universal FOSS Debug APK
+git clone https://github.com/Abhayp56/Tuneify.git
+cd Tuneify
 ./gradlew :app:assembleUniversalFossDebug
-
-# Build Universal FOSS Release APK
-./gradlew :app:assembleUniversalFossRelease
 ```
 
+For Windows, use `.\gradlew.bat` instead of `./gradlew`.
+
 ---
 
-## 📄 License
+## Open source, always.
 
-Tuneify is free and open-source software distributed under the terms of the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information.
+Tuneify is distributed under the GNU General Public License v3.0.
+
+See [LICENSE](LICENSE) for license terms and redistribution requirements.
+
+Built on open-source foundations, with appreciation for the original contributors and the Android development community.
+
+---
+
+**TUNEIFY**
+
+*Feel every note.*
